@@ -35,7 +35,4 @@ function isPowerOfTwo(n) {
   return n < 1 ? false : (n & (n - 1)) === 0;
 }
 
-console.log(isPowerOfTwo(1));
-console.log(isPowerOfTwo(3));
-console.log(isPowerOfTwo(16));
-console.log(isPowerOfTwo(22));
+console.log(fibonacci(8));
